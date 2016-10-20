@@ -78,7 +78,7 @@
     var uploader = new qq.azure.FineUploader({
         element: document.getElementById('fine-uploader'),
         request: {
-            endpoint: 'https://fehanstoragetest.blob.core.windows.net/mycontainer'
+            endpoint: 'https://{storageaccount}.blob.core.windows.net/{container}'
         },
         signature: {
             endpoint: "/sas.ashx"
